@@ -6,7 +6,7 @@ nav {
 }
 
 nav ul {
-  margin-left: 58vw;
+  margin-left: 50vw;
 }
 .move {
   margin-left: 2vw;
@@ -53,6 +53,13 @@ h3 {
   text-align: center;
   background-color: #f8ede3;
 }
+#gallery h2 {
+  padding-top: 2vh;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bolder;
+}
+
 footer h2 {
   text-align: center;
 }
@@ -68,7 +75,7 @@ footer h2 {
   justify-content: space-between;
 }
 #gallery {
-  margin-top: -2.5vh;
+  margin-top: -30px;
   background-color: #bdd2b6;
 }
 .image img:hover {
@@ -108,5 +115,16 @@ footer h2 {
   .image img {
     width: 40vw;
     height: auto;
+  }
+}
+@media screen and (max-width: 1060px) {
+  nav ul {
+    margin-left: 45vw;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  nav ul {
+    margin-left: 0px;
   }
 }
