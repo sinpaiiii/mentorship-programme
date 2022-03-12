@@ -128,6 +128,20 @@ footer h2 {
     margin-left: 0px;
   }
 }
-* {
-  border: 2px solid black;
+#application {
+  background-color: #f8ede3;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bolder;
+}
+#application h2 {
+  text-align: center;
+  font-weight: bolder;
+}
+#application h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#application h4 {
+  text-align: center;
+  font-weight: bolder;
 }
