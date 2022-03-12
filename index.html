@@ -52,6 +52,9 @@
               <a class="nav-link" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#application">Apply</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#footer">Contact</a>
             </li>
           </ul>
@@ -137,22 +140,22 @@
     <section id="application">
       <div>
         <h2>Applications</h2>
-        <h4>If you are interested in joining this programme read the courses lsited below and register for the one you are interested in.</h4>
+        <p style="text-align:justify; font-size: larger;">If you are interested in joining this programme read the courses lsited below and register for the one you are interested in.</p>
       </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-4 col-sm-7">
+            <div class="card">
               <img src="frontend.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Front End</h5>
                 <p class="card-text">To learn to design a webpage, its appearence and beautify it apply here.</br></p>
-                <a href="#" class="btn btn-primary">Front end camp</a>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card_one" >Front end camp</a>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card" style="width: 18rem;">
+          <div class="col-md-4 col-sm-7">
+            <div class="card" >
               <img src="backend.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Back end</h5>
@@ -161,8 +164,8 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card col-md-4" style="width: 18rem;">
+          <div class="col-md-4 col-sm-7">
+            <div class="card" >
               <img src="fullstack.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Full stack</h5>
@@ -203,6 +206,58 @@
           </div>
       </footer>
     </section>
+    <!-- Modal -->
+    <div class="modal fade" id="card_one" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Bootstrap Js -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

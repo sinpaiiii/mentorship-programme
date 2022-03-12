@@ -59,7 +59,9 @@ h3 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: bolder;
 }
-
+.carousel {
+  padding-bottom: 50px;
+}
 footer h2 {
   text-align: center;
 }
@@ -144,4 +146,11 @@ footer h2 {
 #application h4 {
   text-align: center;
   font-weight: bolder;
+}
+* {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bolder;
+}
+.card {
+  margin-bottom: 50px;
 }
