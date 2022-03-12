@@ -52,6 +52,7 @@ h3 {
 .heading h2 {
   text-align: center;
   background-color: #f8ede3;
+  font-weight: bolder;
 }
 #gallery h2 {
   padding-top: 2vh;
@@ -153,4 +154,8 @@ footer h2 {
 }
 .card {
   margin-bottom: 50px;
+}
+.apps p {
+  width: 80vw;
+  margin-left: 10vw;
 }
